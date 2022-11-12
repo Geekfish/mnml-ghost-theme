@@ -73,7 +73,19 @@
 
             <section class="share">
                 <h4>Share this post</h4>
-                <a class="icon-twitter" href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}"
+
+                {{!-- shareon links: --}}
+                {{!-- https://codeberg.org/kytta/shareon/#usage --}}
+                <div class="shareon">
+                    <a class="mastodon"></a>
+                    <a class="pocket"></a>
+                    <a class="reddit"></a>
+                    <a class="telegram"></a>
+                    <a class="twitter"></a>
+                </div>
+
+                {{!-- Default theme share links: --}}
+                {{!-- <a class="icon-twitter" href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}"
                     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
@@ -84,7 +96,7 @@
                 <a class="icon-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{url absolute="true"}}&title={{encode title}}&source=LinkedIn"
                    onclick="window.open(this.href, 'linkedin-share', 'width=490,height=530');return false;">
                     <span class="hidden">LinkedIn</span>
-                </a>
+                </a> --}}
             </section>
 
 
