@@ -1387,6 +1387,10 @@ figure.kg-embed-card * {
   color: rgb(10, 102, 194);
 }
 
+.icon-mastodon{
+  color: #6364FF;
+}
+
 .share .icon-twitter,
 .author-profile .icon-twitter,
 .icon-twitter:hover{
